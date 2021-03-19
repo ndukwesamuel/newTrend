@@ -44,6 +44,14 @@
 }
 
 
+.icon_img{
+	width: 20px;
+
+	margin-left: 50px;
+	margin-top: 1em;
+}
+
+
 
 
 .service_1{
@@ -54,8 +62,6 @@
  .services_img_1{
 
 	padding-top: 7em;
-	
-
 	border-bottom-left-radius: 5em;
 	border-bottom-right-radius: 30em;
 	border-top-right-radius: 20em;
@@ -63,13 +69,27 @@
 
 	
 
-	width: 40em;
-	height: 40em;
+	width: 30em;
+	height: 30em;
 
 	
 
 
 }
+
+
+iframe{
+
+	width: 40em ;
+	height: 20em;
+
+}
+
+.booking_btn{
+
+}
+
+
 
 .home div div div p a{
 	color: yellow;
@@ -144,10 +164,11 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
-
-	.home_1_1{
-		border: yellow solid 3px;
+	.home_1_1_h1{
+		font-size: 10px;
+		color: red;
 	}
+
 
 
   }
